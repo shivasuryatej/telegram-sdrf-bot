@@ -3,7 +3,7 @@ from docxtpl import DocxTemplate
 import os
 
 # Read bot token securely from Railway environment variable
-BOT_TOKEN = os.getenv('7948202077:AAHA9btVMQPQiyrO13rKme1-laaLikFOUAQ')
+BOT_TOKEN = os.getenv('BOT_TOKEN')
 
 # List of required placeholders
 REQUIRED_KEYS = [
